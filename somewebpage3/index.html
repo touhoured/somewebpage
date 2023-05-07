@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>图书展示</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<header>
+    <h1>图书展示</h1>
+</header>
+
+<div class="book-container">
+    <div class="book-card">
+        <img src="img/book1.jpg" alt="书籍1">
+        <div class="book-info">
+            <p class="book-name">《查令十字街84号》</p>
+            <p class="book-author">海勒特•汉弥尔顿</p>
+            <p class="book-description">这是一本书信小说，讲述了一位纽约女作家与一家位于英国伦敦查令十字街84号的小书店之间的故事。小书店店主与女作家之间的信件往来，慢慢的演变成一段长达20多年的深厚友谊。</p>
+            <button onclick="shareOnWeibo()">分享到微博</button>
+        </div>
+    </div>
+
+    <div class="book-card">
+        <img src="img/book2.jpg" alt="书籍2">
+        <div class="book-info">
+            <p class="book-name">《傲慢与偏见》</p>
+            <p class="book-author">简·奥斯汀</p>
+            <p class="book-description">在这本小说中，简·奥斯汀以幽默和机智的方式，讲述了英国社会中阶层观念和男女之间的关系。她的小说风格冷峻，观察敏锐，对当时英国社会的价值观表现出不屈不挠的坚持。</p>
+            <button onclick="shareOnWeibo()">分享到微博</button>
+        </div>
+    </div>
+
+    <div class="book-card">
+        <img src="img/book3.jpg" alt="书籍3">
+        <div class="book-info">
+            <p class="book-name">《红楼梦》</p>
+            <p class="book-author">曹雪芹</p>
+            <p class="book-description">这部小说将中国古代文学推上了新高峰。曹雪芹的文学才华在其中展露无疑，以及对封建道德观念和人情世故的深刻理解。在这个故事中，作者讲述了一个富家小姐贾宝玉，在奢侈和封建的世界里经历了一系列人生的挫折。</p>
+            <button onclick="shareOnWeibo()">分享到微博</button>
+        </div>
+    </div>
+
+    <div class="book-card">
+        <img src="img/book4.jpg" alt="书籍4">
+        <div class="book-info">
+            <p class="book-name">《简·爱》</p>
+            <p class="book-author">夏洛蒂·勃朗特</p>
+            <p class="book-description">这是一本19世纪英国小说，讲述了女主角简·爱经历的不同阶段。夏洛蒂·勃朗特带领读者探究了关于阶级、性别和人性等经典主题。这本小说被认为是英国文学史上最好的小说之一。</p>
+            <button onclick="shareOnWeibo()">分享到微博</button>
+        </div>
+    </div>
+
+    <div class="book-card">
+        <img src="img/book5.jpg" alt="书籍5">
+        <div class="book-info">
+            <p class="book-name">《了不起的盖茨比》</p>
+            <p class="book-author">弗·斯科特·菲茨杰拉德</p>
+            <p class="book-description">这是一部20世纪美国文学的代表作品。弗·斯科特·菲茨杰拉德的笔触轻盈，散发出无尽的智慧和灵感。主人公盖茨比仿佛是不切实际与现实之间的生动缩影。在小说中，他们都被描绘成追逐自己的梦想，但最终与现实的冲突不断，令人无奈。</p>
+            <button onclick="shareOnWeibo()">分享到微博</button>
+        </div>
+    </div>
+
+    <div class="book-card">
+        <img src="img/book6.jpg" alt="书籍6">
+        <div class="book-info">
+            <p class="book-name">《百年孤独》</p>
+            <p class="book-author">加西亚·马尔克斯</p>
+            <p class="book-description">加西亚·马尔克斯的这本小说延续了拉丁美洲文学的辉煌传统。它的叙述方式非常独特，故事情节发生在一个虚构的小镇上，讲述了布恩地亚家族七代人的故事，代表着一个时代、一种人、一种文化的象征。</p>
+            <button onclick="shareOnWeibo()">分享到微博</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <nav>
+        <ul>
+            <li><a href="#">主页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">联系我们</a></li>
+        </ul>
+    </nav>
+    <h2>订阅我们的新闻通讯</h2>
+    <form>
+        <input type="email" name="email" placeholder="输入您的电子邮箱">
+        <button type="submit">订阅</button>
+    </form>
+    <div class="copyright">
+        <p>&copy; 2022-2023 Bookstore All Rights Reserved</p>
+        <p>网站创建于2022-01-01</p>
+        <p>作者信息：xxx</p>
+        <p>联系方式：xxxx-xxxxxxx</p>
+    </div>
+</footer>
+
+<script>
+    function shareOnWeibo() {
+        alert("分享到微博按钮被点击了！");
+    }
+</script>
+</body>
+</html>
